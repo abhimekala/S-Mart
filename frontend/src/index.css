@@ -1,0 +1,43 @@
+/* Color palette: https://coolors.co/81a070-ffffff-c5ccc9-999999-4599b0 */
+:root {
+  --color-sage: #81a070;
+  --color-white: #ffffff;
+  --color-light-gray: #c5ccc9;
+  --color-gray: #999999;
+  --color-teal: #4599b0;
+  --color-sage-dark: #6b855e;
+  --color-teal-dark: #3a7d94;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-white);
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--color-teal);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-teal-dark);
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
